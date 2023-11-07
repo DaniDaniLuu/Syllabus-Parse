@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('NOT_LOGGED_IN.urls')),
+    path('pdf/', include('PDF_HANDLING.urls'))
 ]
